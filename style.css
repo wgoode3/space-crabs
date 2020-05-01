@@ -1,0 +1,128 @@
+body {
+    background-color: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, p, h3, li, th, td, a {
+    color: #ffffff;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+nav {
+    background: linear-gradient(-30deg, magenta,  rebeccapurple);
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav h1, nav ul {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: top;
+}
+
+nav h1 {
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 10px;
+    margin-right: 420px;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+.main-img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.col {
+    width: 316px;
+    display: inline-block;
+    background-color: #000000;
+    vertical-align: top;
+    height: 240px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.no-margin-right {
+    margin-right: 0 !important;
+}
+
+.col2 {
+    width: 656px;
+    margin-right: 0 !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #222222;
+}
+
+form {
+    margin: 20px 0px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #000000;
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+    line-height: 50px;
+}
+
+.group, .group2 {
+    margin: 10px 0px;
+    display: flex;
+}
+
+.group label, .group2 input {
+    width: 100px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.group input, .group2 label{
+    flex: 1;
+    padding: 5px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.btn {
+    height: 50px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(-30deg, magenta,  rebeccapurple);
+    color: #fff;
+    border: none;
+}
